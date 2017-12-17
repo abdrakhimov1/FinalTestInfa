@@ -12,6 +12,8 @@ int main() {
     firstTry.makeNewNode(32);
     firstTry.makeNewNode(1);
     firstTry.printAllNodeValues(firstTry.giveMeFirst());
+    firstTry.findMinimum();
+    firstTry.findMaximum();
 
 
     return 0;
