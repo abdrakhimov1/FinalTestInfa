@@ -83,6 +83,28 @@ public:
         }
     };
 
+    treeNode* findMinimum(){
+        treeNode* min = giveMeFirst();
+        while (min -> left != 0){
+            min = min -> left;
+        }
+        int forPrint = min -> NodeValue;
+        std::cout << "Minimum is: ";
+        std::cout <<  forPrint << std::endl;
+        return min;
+    }
+
+    treeNode* findMaximum(){
+        treeNode* max = giveMeFirst();
+        while (max -> right != 0){
+            max = max -> right;
+        }
+        int forPrint = max -> NodeValue;
+        std::cout << "Maximum is: ";
+        std::cout <<  forPrint << std::endl;
+        return max;
+    }
+
     treeNode* giveMeFirst(){
         return  first;
     }
