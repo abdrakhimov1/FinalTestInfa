@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ruby/CLionProjects/Home_test_ correction/Class_settings.h
+
+/home/ruby/CLionProjects/Home_test_ correction/main.cpp
+iostream
+-
+Class_settings.h
+/home/ruby/CLionProjects/Home_test_ correction/Class_settings.h
+

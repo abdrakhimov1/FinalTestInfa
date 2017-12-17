@@ -1,0 +1,3 @@
+/home/ruby/CLionProjects/Home_test_ correction/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ruby/CLionProjects/Home_test_ correction/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ruby/CLionProjects/Home_test_ correction/cmake-build-debug/CMakeFiles/Home_test__correction.dir
